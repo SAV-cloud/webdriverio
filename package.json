@@ -1,0 +1,23 @@
+{
+  "name": "webdriverio",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.27.0",
+    "@wdio/cli": "^9.27.0",
+    "@wdio/local-runner": "^9.27.0",
+    "@wdio/mocha-framework": "^9.27.0",
+    "@wdio/spec-reporter": "^9.27.0",
+    "allure-commandline": "^2.38.1",
+    "eslint": "^10.1.0",
+    "webdriverio": "^9.27.0"
+  }
+}

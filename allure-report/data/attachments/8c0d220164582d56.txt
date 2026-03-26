@@ -1,0 +1,2 @@
+stale element reference: WebDriverError: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=145.0.3800.97) when running "element/f.380A4DBD4582C3955AA73E23FD7C496F.d.3F9DE4501B0060CE2B3FF43095776149.e.27/text" with method "GET"

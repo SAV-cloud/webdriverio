@@ -1,0 +1,2 @@
+stale element reference: WebDriverError: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=145.0.3800.97) when running "element/f.FB559CC5B7207D88F380A45959133FC6.d.51A40280700C31B9C855A38B5BB3242B.e.23/click" with method "POST"

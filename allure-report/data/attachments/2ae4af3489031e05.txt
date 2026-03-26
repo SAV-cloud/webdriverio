@@ -1,0 +1,2 @@
+stale element reference: WebDriverError: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=145.0.3800.97) when running "element/f.EC8420F98DAF719CF27C24AAEE7B65E5.d.AC007160205E6235C3857940798261CF.e.2/clear" with method "POST"
