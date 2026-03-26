@@ -1,4 +1,4 @@
-# Test Automation Framework (TAF)
+# Test Automation for Swag Labs
 ## Project Structure
 ```
 TAF/
