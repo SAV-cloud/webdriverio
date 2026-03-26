@@ -1,4 +1,6 @@
 # Test Automation Framework (TAF)
+## Project Structure
+```
 TAF/
 ├─ tests/
 │ ├─ login.e2e.js           # Tests for user login
@@ -17,7 +19,7 @@ TAF/
 ├─ wdio.conf.js             # WebdriverIO configuration
 ├─ package.json             # NPM scripts and dependencies
 └─ .gitignore               # Files ignored by Git (node_modules, allure-results)
-
+```
 ## Tech Stack
 - WebdriverIO
 - Mocha
