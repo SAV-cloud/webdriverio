@@ -1,0 +1,2 @@
+stale element reference: WebDriverError: stale element reference: stale element not found in the current frame
+  (Session info: chrome=146.0.7680.165) when running "element/f.D24060D0139F5E89DA9BBCF22B863448.d.B591BE65445782D79CAAD926132D1CA2.e.41/click" with method "POST"
