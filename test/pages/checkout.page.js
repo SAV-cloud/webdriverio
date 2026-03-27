@@ -3,6 +3,7 @@ class CheckoutPage {
   get lastName() { return $('input[id="last-name"]'); }
   get zip() { return $('input[id="postal-code"]'); }
   get continueBtn() { return $('input[id="continue"]'); }
+  get errorMsg() { return $('h3[data-test="error"]'); }
 
   async fillForm(fn, ln, zip) {
     await this.firstName.setValue(fn);
