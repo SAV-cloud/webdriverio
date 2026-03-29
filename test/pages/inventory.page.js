@@ -1,4 +1,7 @@
 class InventoryPage {
+  get cartLink() { return $('a[class="shopping_cart_link"]'); }
+  get cartItems() { return $$('.cart_item'); }
+
   addProductToCart(productName) {
     const product = $(`//div[text()="${productName}"]/ancestor::div[@class="inventory_item"]`);
     product.$('button').click();
@@ -9,8 +12,6 @@ class InventoryPage {
     await cartBadge.waitForDisplayed();
     await expect(cartBadge).toHaveText('1');
   }
-
-  get cartLink() { return $('a[class="shopping_cart_link"]'); }
 
   goToCart() {
     this.cartLink.click();
