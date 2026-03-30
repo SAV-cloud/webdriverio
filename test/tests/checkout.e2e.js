@@ -129,8 +129,4 @@ describe('Checkout Flow', () => {
         cartPage.removeProductFromBag(PRODUCT);
         await expect(cartPage.cartItems).toBeElementsArrayOfSize(0);
     });
-    
-    // afterEach(async () => {
-    //     browser.pause(10000);
-    // });
 });
