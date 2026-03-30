@@ -25,6 +25,11 @@ class CartPage {
           await btn.click();
       }
   }
+
+  removeProductFromBag(productName) {
+    const product = $(`//div[text()="${productName}"]/ancestor::div[@class="inventory_item"]`);
+    product.$('button').click();
+  }
 }
 
 module.exports = new CartPage();

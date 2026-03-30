@@ -126,7 +126,11 @@ describe('Checkout Flow', () => {
         await inventoryPage.checkCartBadge();
 
         inventoryPage.goToCart();
-        await cartPage.removeAllItems();
+        cartPage.removeProductFromBag(PRODUCT);
         await expect(cartPage.cartItems).toBeElementsArrayOfSize(0);
     });
+    
+    // afterEach(async () => {
+    //     browser.pause(10000);
+    // });
 });
