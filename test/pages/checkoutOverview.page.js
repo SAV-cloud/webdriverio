@@ -12,4 +12,4 @@ class CheckoutOverviewPage {
     }
 }
 
-module.exports = new CheckoutOverviewPage();
+export default new CheckoutOverviewPage();

@@ -1,4 +1,4 @@
-module.exports = [
-  { username: 'standard_user', password: 'secret_sauce', valid: true },
-  { username: 'locked_out_user', password: 'secret_sauce', valid: false }
+export default [
+    { username: 'standard_user', password: 'secret_sauce', valid: true },
+    { username: 'locked_out_user', password: 'secret_sauce', valid: false }
 ];
