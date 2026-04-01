@@ -55,13 +55,13 @@ describe('Checkout Flow', () => {
         await expect(cartPage.checkoutBtn).not.toBeDisabled();
     });
 
-        // DDT: iterate over checkout form error scenarios
-        /**
-         * Scenario: Checkout form validation error
-         * Given the user is logged in
-         * When the user submits the checkout form with invalid data
-         * Then the appropriate error message should be displayed
-         */
+    // DDT: iterate over checkout form error scenarios
+    /**
+     * Scenario: Checkout form validation error
+     * Given the user is logged in
+     * When the user submits the checkout form with invalid data
+     * Then the appropriate error message should be displayed
+     */
     checkoutFormErrors.forEach(({ firstName, lastName, zip, error }) => {
         it(`shows error when checkout form invalid input: ${error}`, async () => {
         // Given the user is logged in
@@ -100,7 +100,7 @@ describe('Checkout Flow', () => {
         await expect(cartPage.title).toHaveText(PRODUCTS_PAGE_TITLE);
     });
 
-        /**
+    /**
      * Scenario: Remove items from shopping bag
      * Given the user is logged in and added a product to the cart
      * When the user removes the product from the cart
